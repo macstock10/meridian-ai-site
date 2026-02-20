@@ -5,8 +5,8 @@ const calendlyUrl = "https://calendly.com/placeholder/ai-assessment";
 
 const painPoints = [
   { stat: "15 hrs", text: "Average lead response time. 78% of buyers go with whoever answers first." },
-  { stat: "67%", text: "Of real estate leads go completely unanswered." },
-  { stat: "30 hrs", text: "Of admin per transaction. That's 75% of every deal spent on paperwork." },
+  { stat: "67%", text: "of real estate leads go completely unanswered." },
+  { stat: "30 hrs", text: "of admin per transaction. 75% of every deal is paperwork — not client work." },
   { stat: "24/7", text: "AI agents work around the clock — answering, following up, closing gaps while you sleep." }
 ];
 
@@ -39,7 +39,7 @@ const problems = [
 
 const solutions = [
   { title: "Leads answered in minutes — 24/7", desc: "AI agents qualify leads, respond instantly, and follow up after hours. No more lost deals at 11pm." },
-  { title: "Your admin runs itself", desc: "Email triage, scheduling, CRM updates, data entry — handled automatically so you focus on clients." },
+  { title: "Your admin runs itself", desc: "Email triage, scheduling, CRM updates, data entry — handled automatically so you can focus on clients." },
   { title: "One agent across all your tools", desc: "AI connects your CRM, calendar, MLS, and messaging into one workflow. No more tab fatigue." },
   { title: "Real-time pipeline visibility", desc: "Every deal tracked, every deadline flagged, performance dashboards updated automatically." },
   { title: "Maintenance and tenant ops on autopilot", desc: "Auto-routing, vendor coordination, tenant updates — proactive instead of reactive." },
@@ -49,7 +49,7 @@ const solutions = [
 const reportItems = [
   "Personalized AI roadmap — what to automate first and why",
   "Tool and agent recommendations tailored to your workflow",
-  "Time-saved analysis — exactly how many hours/week you get back",
+  "Time-savings analysis — exactly how many hours/week you get back",
   "Revenue impact model — leads saved, deals closed, costs cut",
   "4-day quick-wins plan (no developer needed)"
 ];
