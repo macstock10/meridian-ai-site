@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-background text-foreground font-sans;
+}
+
+.grid-overlay {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.section-label {
+  @apply inline-flex items-center rounded-full border border-accent/50 px-3 py-1 text-[11px] uppercase tracking-[0.18em] text-accent;
+}
+
+/* Focus visible for accessibility */
+a:focus-visible,
+button:focus-visible {
+  @apply outline-2 outline-offset-2 outline-accent;
+}
+
+/* FAQ accordion */
+details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details[open] summary .faq-chevron {
+  transform: rotate(180deg);
+}
+
+.faq-chevron {
+  transition: transform 200ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-chevron {
+    transition: none;
+  }
+}
+
+/* Report preview accent line */
+.report-line {
+  @apply relative pl-4 before:absolute before:left-0 before:top-0 before:h-full before:w-[2px] before:bg-accent/60;
+}
+
+/* Meridian line — subtle vertical accent motif */
+.meridian-line {
+  @apply mx-auto h-12 w-px bg-gradient-to-b from-transparent via-accent/50 to-transparent;
+}
