@@ -6,74 +6,74 @@ const calendlyUrl = "https://calendly.com/placeholder/ai-assessment";
 const painPoints = [
   { stat: "15 hrs", text: "Average lead response time. 78% of buyers go with whoever answers first." },
   { stat: "67%", text: "Of real estate leads go completely unanswered." },
-  { stat: "75%", text: "Of transaction hours are admin — not client-facing." },
-  { stat: "$4K", text: "Average cost per tenant turnover. Most are preventable." }
+  { stat: "30 hrs", text: "Of admin per transaction. That's 75% of every deal spent on paperwork." },
+  { stat: "24/7", text: "AI agents work around the clock — answering, following up, closing gaps while you sleep." }
 ];
 
 const problems = [
   {
     title: "Leads die in your inbox",
-    desc: "62% of inquiries arrive after hours. Your team responds in 15 hours. The first agent to reply wins 78% of the time. That's not a sales problem — it's a systems problem."
+    desc: "62% of inquiries arrive after hours. The average response time is 15 hours. The first agent to reply wins 78% of the time. Every hour you wait, you lose money."
   },
   {
-    title: "Your CRM is expensive shelf-ware",
-    desc: "40% of agents never touch it. Open house sign-ins get entered manually. Follow-ups fall through the cracks. You're paying for software nobody uses."
+    title: "You're drowning in admin",
+    desc: "Scheduling, follow-ups, data entry, email, paperwork. Agents spend 50% of their time on tasks that never touch a client. That's half your week — gone."
   },
   {
-    title: "Transactions run on spreadsheets and prayer",
-    desc: "No centralized pipeline. Missed inspection dates. Commission splits calculated by hand across 6 variables. One mistake and agent trust evaporates."
+    title: "Your tools don't talk to each other",
+    desc: "CRM, MLS, email, calendar, transaction management, marketing — all disconnected. 40% of agents never touch the CRM you pay for. Tab fatigue is real."
   },
   {
-    title: "Compliance eats your calendar",
-    desc: "Post-settlement buyer agreements, disclosure tracking, audit prep. You became a compliance officer who happens to run a brokerage."
+    title: "You can't see your own business",
+    desc: "No real-time pipeline visibility. No performance data. You find out a deal is in trouble when it blows up, not when it could've been saved."
   },
   {
-    title: "Maintenance is chaos",
-    desc: "Requests at all hours. 60% are emergencies that cost 3–5x more than planned work. Half your day is chasing vendors for updates tenants never see."
+    title: "Maintenance and tenant ops are reactive",
+    desc: "60% of work orders are emergencies costing 3–5x more than planned work. Vendors go dark. Tenants feel ignored. Turnover costs $4K per unit."
   },
   {
-    title: "Listing marketing is a manual assembly line",
-    desc: "Photography, descriptions, MLS entry, syndication, social, email blasts, print materials — every step disconnected, every listing reinvented from scratch."
+    title: "Marketing is reinvented from scratch every time",
+    desc: "Listing descriptions, social posts, email blasts, print materials — every step is manual and disconnected. Every listing starts from zero."
   }
 ];
 
 const solutions = [
-  { title: "Lead response in minutes, not hours", desc: "AI qualification, instant follow-up, after-hours coverage." },
-  { title: "Agents actually use the systems", desc: "Workflows that fit how your team works — not the other way around." },
-  { title: "Pipeline visibility in real time", desc: "Every deal tracked, every deadline flagged, commissions calculated automatically." },
-  { title: "Compliance on autopilot", desc: "Buyer agreements, disclosures, and audit trails handled systematically." },
-  { title: "Maintenance triage without the chaos", desc: "Auto-routing, vendor coordination, tenant updates — all hands-free." },
-  { title: "Marketing that builds itself", desc: "Listing descriptions, social posts, and materials generated from one input." }
+  { title: "Leads answered in minutes — 24/7", desc: "AI agents qualify leads, respond instantly, and follow up after hours. No more lost deals at 11pm." },
+  { title: "Your admin runs itself", desc: "Email triage, scheduling, CRM updates, data entry — handled automatically so you focus on clients." },
+  { title: "One agent across all your tools", desc: "AI connects your CRM, calendar, MLS, and messaging into one workflow. No more tab fatigue." },
+  { title: "Real-time pipeline visibility", desc: "Every deal tracked, every deadline flagged, performance dashboards updated automatically." },
+  { title: "Maintenance and tenant ops on autopilot", desc: "Auto-routing, vendor coordination, tenant updates — proactive instead of reactive." },
+  { title: "Marketing generated in seconds", desc: "Listing descriptions, social posts, email campaigns, and market reports — created from one input." }
 ];
 
 const reportItems = [
-  "Top 3 AI opportunities ranked by impact",
-  "Impact / effort matrix for your operation",
-  "3–7 tool recommendations with pricing",
-  "4-day quick-wins plan (no developer needed)",
-  "Financial impact model — 30/60/90 days"
+  "Personalized AI roadmap — what to automate first and why",
+  "Tool & agent recommendations with pricing (including OpenClaw setup)",
+  "Time-saved analysis — exactly how many hours/week you get back",
+  "Revenue impact model — leads saved, deals closed, costs cut",
+  "4-day quick-wins plan (no developer needed)"
 ];
 
 const faqs = [
   {
-    q: "How is the guarantee measured?",
-    a: "We benchmark your time allocation during the call. At a 30-day check-in, if documented savings don't hit 5 hours/week, full refund."
+    q: "What is an AI agent like OpenClaw?",
+    a: "It's an always-on AI assistant that runs on your own devices and connects to tools you already use — email, CRM, calendar, WhatsApp, Slack. It doesn't just answer questions — it actually does things: responds to leads, schedules showings, drafts follow-ups, updates your CRM, and more. All while you sleep."
   },
   {
-    q: "What if we already use AI tools?",
-    a: "Most clients do. We find 3–5 additional hours of savings even in teams already experimenting."
+    q: "I'm not technical. Can I still use this?",
+    a: "Absolutely. That's exactly what we're here for. We handle the setup and configuration. You just tell it what to do in plain English through your messaging apps."
   },
   {
     q: "How fast do we see results?",
-    a: "The report includes a 4-day quick-wins plan. Most clients see measurable savings within 2 weeks."
+    a: "The report includes a 4-day quick-wins plan. Most clients see measurable time savings within 2 weeks and revenue impact within 30 days."
   },
   {
-    q: "What tools do you work with?",
-    a: "We integrate with Follow Up Boss, AppFolio, Dotloop, Buildium, and major CRMs. 40+ tools vetted specifically for real estate."
+    q: "Who is this for?",
+    a: "Anyone in real estate — solo agents, teams, brokerages, property managers, investors, developers. If you're spending hours on repetitive tasks, there's an AI solution for it today."
   },
   {
     q: "What happens after the assessment?",
-    a: "You own the report. Implement solo or hire us for hands-on execution. No obligation."
+    a: "You own the report. Implement solo using our step-by-step guide, or hire us for hands-on setup and training. No obligation either way."
   }
 ];
 
@@ -139,11 +139,11 @@ export default function Home() {
             <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-accent/10 blur-3xl" aria-hidden="true" />
             <HeroGraphic />
             <h1 className="relative max-w-3xl font-display text-5xl leading-[1.1] text-foreground md:text-7xl lg:text-8xl">
-              Your brokerage<br />is leaking.
+              AI agents that<br />work real estate<br />for you.
             </h1>
             <p className="relative mt-6 max-w-xl text-lg text-muted">
-              Dead leads. Manual transactions. Compliance chaos. Maintenance fires.<br className="hidden sm:block" />
-              We find the leaks and plug them with AI.
+              Respond to leads at 2am. Automate your admin. Generate marketing in seconds.<br className="hidden sm:block" />
+              Tools like OpenClaw are changing real estate. We help you set them up.
             </p>
             <div className="relative mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
               <a href={calendlyUrl} rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-accent bg-accent px-7 py-3.5 text-sm font-semibold tracking-wide text-black transition hover:bg-[#d8ba83]">
@@ -167,7 +167,7 @@ export default function Home() {
           <Reveal id="problems" aria-label="Problems we solve" className="mt-24">
             <p className="section-label">Sound Familiar?</p>
             <h2 className="mt-5 font-display text-3xl md:text-4xl">
-              These aren&apos;t tech problems. They&apos;re operations problems.
+              The real estate industry is bleeding time and money.
             </h2>
             <div className="mt-8 grid gap-3 md:grid-cols-2">
               {problems.map((p) => (
@@ -181,8 +181,8 @@ export default function Home() {
 
           {/* ── What we fix ── */}
           <Reveal aria-label="What we fix" className="mt-24 rounded-3xl border border-accent/30 bg-surface px-6 py-10 shadow-glow md:px-10 md:py-14">
-            <p className="section-label">What We Fix</p>
-            <h2 className="mt-5 font-display text-3xl md:text-4xl">Every problem above has an AI solution today.</h2>
+            <p className="section-label">What AI Agents Do For You</p>
+            <h2 className="mt-5 font-display text-3xl md:text-4xl">Every problem above has an AI solution — running right now.</h2>
             <div className="mt-8 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
               {solutions.map((s) => (
                 <div key={s.title} className="rounded-xl border border-border/60 bg-background/50 p-4">
@@ -193,7 +193,7 @@ export default function Home() {
             </div>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <a href={calendlyUrl} rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-accent bg-accent px-5 py-2.5 text-sm font-semibold text-black transition hover:bg-[#d8ba83]">
-                See What AI Can Fix in Your Operation
+                See What AI Can Do For You
               </a>
               <span className="text-xs text-muted">45-min call. No prep needed.</span>
             </div>
@@ -208,8 +208,8 @@ export default function Home() {
                   One call.<br />One report.<br />Clear ROI.
                 </h2>
                 <p className="mt-4 text-sm text-muted">
-                  45-minute deep dive into your operation. We record, analyze against 40+ vetted
-                  tools, and deliver a structured implementation report within 5 business days.
+                  45-minute deep dive into your workflow. We analyze where you&apos;re losing time and money,
+                  map it against AI tools like OpenClaw, and deliver a custom implementation plan within 5 business days.
                 </p>
                 <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
                   <a href={calendlyUrl} rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-accent bg-accent px-5 py-2.5 text-sm font-semibold text-black transition hover:bg-[#d8ba83]">
@@ -240,13 +240,13 @@ export default function Home() {
               <div className="rounded-xl border border-border bg-background/50 p-5">
                 <p className="text-sm font-semibold text-foreground">Real estate only</p>
                 <p className="mt-2 text-xs text-muted">
-                  No SaaS. No e-commerce. Every tool and recommendation is vetted for brokerages and property managers.
+                  Agents, brokers, property managers, investors — every recommendation is vetted for how real estate actually works.
                 </p>
               </div>
               <div className="rounded-xl border border-border bg-background/50 p-5">
-                <p className="text-sm font-semibold text-foreground">Built by operators</p>
+                <p className="text-sm font-semibold text-foreground">We set it up for you</p>
                 <p className="mt-2 text-xs text-muted">
-                  Founded from inside a 40-agent brokerage losing 200+ hours/month to work AI could handle.
+                  You don&apos;t need to be technical. We configure AI agents, connect your tools, and train you to use them in plain English.
                 </p>
               </div>
               <div className="rounded-xl border border-border bg-background/50 p-5">
@@ -277,7 +277,7 @@ export default function Home() {
           {/* ── Final CTA ── */}
           <Reveal aria-label="Get started" className="mt-24 rounded-3xl border border-accent/45 bg-surface px-6 py-16 text-center shadow-glow md:px-10">
             <h2 className="font-display text-3xl md:text-5xl">
-              Your competitors already started.
+              The agents using AI are pulling ahead.
             </h2>
             <p className="mx-auto mt-4 max-w-md text-sm text-muted">
               $999. 5 business days. Money-back guarantee. 8 spots per month.
@@ -303,7 +303,7 @@ export default function Home() {
               <span className="flex h-6 w-6 items-center justify-center rounded border border-accent/60 bg-accent/15 text-[10px] font-semibold text-accent" aria-hidden="true">M</span>
               Meridian AI
             </div>
-            <p className="text-xs tracking-wide text-muted/50">Practical AI. Measurable results. Real estate only.</p>
+            <p className="text-xs tracking-wide text-muted/50">AI agents for real estate. Save time. Make money.</p>
             <p className="text-xs text-muted/40">&copy; {new Date().getFullYear()} Meridian AI</p>
           </div>
         </div>
