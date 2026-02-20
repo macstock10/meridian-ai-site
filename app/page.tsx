@@ -143,7 +143,7 @@ export default function Home() {
               AI agents that<br />work real estate<br />for you.
             </h1>
             <p className="relative mt-6 max-w-xl text-lg text-muted">
-              Respond to leads at 2am. Automate your admin. Generate marketing in seconds.<br className="hidden sm:block" />
+              Respond to leads at 2am. Automate your admin. Generate marketing in seconds.{" "}<br className="hidden sm:block" />
               AI is changing real estate. We help you stay ahead.
             </p>
             <div className="relative mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
