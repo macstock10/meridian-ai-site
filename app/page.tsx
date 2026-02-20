@@ -48,7 +48,7 @@ const solutions = [
 
 const reportItems = [
   "Personalized AI roadmap — what to automate first and why",
-  "Tool & agent recommendations with pricing (including OpenClaw setup)",
+  "Tool and agent recommendations tailored to your workflow",
   "Time-saved analysis — exactly how many hours/week you get back",
   "Revenue impact model — leads saved, deals closed, costs cut",
   "4-day quick-wins plan (no developer needed)"
@@ -56,8 +56,8 @@ const reportItems = [
 
 const faqs = [
   {
-    q: "What is an AI agent like OpenClaw?",
-    a: "It's an always-on AI assistant that runs on your own devices and connects to tools you already use — email, CRM, calendar, WhatsApp, Slack. It doesn't just answer questions — it actually does things: responds to leads, schedules showings, drafts follow-ups, updates your CRM, and more. All while you sleep."
+    q: "What is an AI agent?",
+    a: "It's an always-on assistant that connects to the tools you already use — email, CRM, calendar, messaging apps. It doesn't just answer questions — it actually does things: responds to leads, schedules showings, drafts follow-ups, updates your CRM, and more. All while you sleep."
   },
   {
     q: "I'm not technical. Can I still use this?",
@@ -121,6 +121,7 @@ export default function Home() {
             <a href="#problems" className="transition hover:text-foreground">Problems</a>
             <a href="#how" className="transition hover:text-foreground">How It Works</a>
             <a href="#faq" className="transition hover:text-foreground">FAQ</a>
+            <a href="/team" className="transition hover:text-foreground">Team</a>
           </div>
           <div className="flex items-center gap-3">
             <a href={calendlyUrl} rel="noopener noreferrer" className="hidden rounded-md border border-accent bg-accent px-4 py-2 text-xs font-semibold tracking-wide text-black transition hover:bg-[#d8ba83] md:inline-flex">
@@ -143,7 +144,7 @@ export default function Home() {
             </h1>
             <p className="relative mt-6 max-w-xl text-lg text-muted">
               Respond to leads at 2am. Automate your admin. Generate marketing in seconds.<br className="hidden sm:block" />
-              Tools like OpenClaw are changing real estate. We help you set them up.
+              AI is changing real estate. We help you stay ahead.
             </p>
             <div className="relative mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
               <a href={calendlyUrl} rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-accent bg-accent px-7 py-3.5 text-sm font-semibold tracking-wide text-black transition hover:bg-[#d8ba83]">
@@ -209,7 +210,7 @@ export default function Home() {
                 </h2>
                 <p className="mt-4 text-sm text-muted">
                   45-minute deep dive into your workflow. We analyze where you&apos;re losing time and money,
-                  map it against AI tools like OpenClaw, and deliver a custom implementation plan within 5 business days.
+                  then deliver a custom AI implementation plan within 5 business days.
                 </p>
                 <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
                   <a href={calendlyUrl} rel="noopener noreferrer" className="inline-flex items-center rounded-md border border-accent bg-accent px-5 py-2.5 text-sm font-semibold text-black transition hover:bg-[#d8ba83]">

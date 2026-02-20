@@ -80,6 +80,9 @@ export function MobileNav({ calendlyUrl }: { calendlyUrl: string }) {
             <a href="#faq" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
               FAQ
             </a>
+            <a href="/team" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
+              Team
+            </a>
             <a
               href={calendlyUrl}
               onClick={close}

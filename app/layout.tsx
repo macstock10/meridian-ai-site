@@ -15,22 +15,22 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Meridian AI | AI Operations for Real Estate Brokerages & Property Managers",
+  title: "Meridian AI | AI Agents for Real Estate Professionals",
   description:
-    "Meridian AI helps brokerages and property managers reclaim 5+ hours every week with practical AI operations consulting. $999 assessment with a money-back guarantee.",
+    "Meridian AI helps real estate professionals save time, cut costs, and close more deals with AI agents. $999 assessment with a money-back guarantee.",
   openGraph: {
-    title: "Meridian AI | AI Operations for Real Estate",
+    title: "Meridian AI | AI Agents for Real Estate",
     description:
-      "We help brokerages and property managers reclaim 5+ hours per week by identifying and implementing the right AI tools across their operations.",
+      "We help real estate professionals reclaim 5+ hours per week by setting up AI agents that automate leads, admin, marketing, and operations.",
     type: "website",
     locale: "en_US",
     siteName: "Meridian AI"
   },
   twitter: {
     card: "summary_large_image",
-    title: "Meridian AI | AI Operations for Real Estate",
+    title: "Meridian AI | AI Agents for Real Estate",
     description:
-      "We help brokerages and property managers reclaim 5+ hours per week with practical AI operations consulting."
+      "We help real estate professionals reclaim 5+ hours per week with AI agents that handle leads, admin, and operations."
   },
   robots: { index: true, follow: true }
 };
