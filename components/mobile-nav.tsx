@@ -71,13 +71,13 @@ export function MobileNav({ calendlyUrl }: { calendlyUrl: string }) {
           className="absolute left-0 right-0 top-full border-b border-border/60 bg-background/95 backdrop-blur-lg"
         >
           <div className="flex flex-col gap-1 px-6 py-4">
-            <a href="#problems" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
+            <a href="/#problems" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
               Problems
             </a>
-            <a href="#how" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
+            <a href="/#how" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
               How It Works
             </a>
-            <a href="#faq" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
+            <a href="/#faq" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">
               FAQ
             </a>
             <a href="/team" onClick={close} className="rounded-lg px-3 py-2 text-sm text-muted transition hover:bg-surface hover:text-foreground">

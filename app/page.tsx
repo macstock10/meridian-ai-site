@@ -118,9 +118,9 @@ export default function Home() {
             Meridian AI
           </a>
           <div className="hidden items-center gap-6 text-sm text-muted md:flex">
-            <a href="#problems" className="transition hover:text-foreground">Problems</a>
-            <a href="#how" className="transition hover:text-foreground">How It Works</a>
-            <a href="#faq" className="transition hover:text-foreground">FAQ</a>
+            <a href="/#problems" className="transition hover:text-foreground">Problems</a>
+            <a href="/#how" className="transition hover:text-foreground">How It Works</a>
+            <a href="/#faq" className="transition hover:text-foreground">FAQ</a>
             <a href="/team" className="transition hover:text-foreground">Team</a>
           </div>
           <div className="flex items-center gap-3">
